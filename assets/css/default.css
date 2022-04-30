@@ -53,6 +53,14 @@ body {
     max-width: 42em;
 }
 
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
 /*
  * Header
  */
@@ -95,10 +103,13 @@ body {
 }
 
 /* Set a specific color for each brand */
-.fa-github {
+.fa-github,
+.fa-telegram {
     color: #c9d1d9;
 }
 
-.fa-telegram {
-    color: #c9d1d9;
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
